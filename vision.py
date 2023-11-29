@@ -4,7 +4,7 @@ from google.cloud import vision_v1p3beta1 as vision
 from tqdm import tqdm
 
 # 키파일 경로 설정
-keyfile_path = os.path.join(os.path.dirname(__file__), "theta-signal-405105-9d9fba79afa4.json")
+keyfile_path = os.path.join(os.path.dirname(__file__), "*****-*****-*****-**********.json")
 
 # Names of likelihood from google.cloud.vision.enums
 likelihood_name = (
