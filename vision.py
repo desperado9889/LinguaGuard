@@ -7,7 +7,7 @@ from tqdm import tqdm
 import sys
 
 # 키파일 경로 설정
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'theta-signal-405105-e800f4a344b4.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'YOUR_VISION_API_KEY.json'
 
 # Names of likelihood from google.cloud.vision.enums
 likelihood_name = (
